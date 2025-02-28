@@ -85,3 +85,14 @@ It is define with name with dot directly infront of it. An attribute called clas
 ```
 
 - We can use a comma(,) seperator to add a new type selcetor for each one to the exisiting style.
+
+### RGB fuction vs HSL fuction vs hexvlaue color
+
+### linear-gradient
+
+```CS
+linear-gradient(gradientDirection, color1, color2, ...);
+box-shadow: offsetX offsetY blurRadius spreadRadius color; /* blurRadius and spreadRadius is optional */
+```
+
+### Background vs Background-color
