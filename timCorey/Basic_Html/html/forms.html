@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form Demo</title>
+    <link href="../favicon.ico" rel="icon" />
+  </head>
+  <body>
+    <h1>Form Demo Page</h1>
+    <a href="../index.html">Home</a>
+    <form action="" method="POST">
+      <label for="firstName">First Name:</label> <br />
+      <input type="text" id="firstName" name="firstName" required /><br />
+      <label for="lastName">Last Name:</label> <br />
+      <input type="text" id="lastName" name="lastName" required /><br />
+
+      <!-- <input type="submit" value="Sumbmit Form" /> -->
+      <!-- because of web accessibility we use button element as it also give proper html structure-->
+      <button type="submit">Submit</button>
+      <button type="reset">reset</button>
+    </form>
+    <br />
+
+    <form action="" method="post">
+      <label>
+        First Name:
+        <input type="text" id="firstName1" name="firstName1" required /><br />
+      </label>
+      <br />
+      <label>
+        Last Name:
+        <input type="text" id="lastName1" name="lastName1" required /><br />
+      </label>
+      <button type="submit">Submit</button>
+      <button type="reset">Reset</button>
+    </form>
+    <br />
+    <form action="" method="POST">
+      <div>
+        <label for="firstName2">First Name:</label>
+        <input type="text" id="firstName2" name="firstName2" required />
+      </div>
+      <div>
+        <label for="lastName2">Last Name:</label>
+        <input type="text" id="lastName2" name="lastName" required />
+      </div>
+      <div>
+        <label for="password">Password</label>
+        <input type="password" id="password" name="password" />
+      </div>
+      <div>
+        <input
+          type="radio"
+          id="cold"
+          name="howHot"
+          value="cold"
+          checked="checked"
+        />
+        <label for="cold">Cold</label>
+        <input type="radio" id="warm" name="howHot" value="warm" />
+        <label for="warm">Warm</label>
+        <input type="radio" id="roomTemp" name="howHot" value="warm" />
+        <label for="roomTemp">Just Right</label>
+      </div>
+      <div>
+        <input type="checkbox" id="remeberme" name="remeberme" value="0" />
+        <label for="remeberme">Remember Me!!</label>
+      </div>
+      <div>
+        <label for="transDate">TransactionDate</label>
+        <input type="date" id="transDate" name="transDate" value="7/15/2024" />
+      </div>
+      <div>
+        <button type="submit">Submit</button>
+        <button type="reset">reset</button>
+      </div>
+    </form>
+  </body>
+</html>

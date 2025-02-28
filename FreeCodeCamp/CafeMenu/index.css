@@ -1,0 +1,83 @@
+body {
+  background-image: url(https://cdn.freecodecamp.org/curriculum/css-cafe/beans.jpg);
+  font-family: sans-serif;
+  padding: 20px;
+}
+
+.menu {
+  background-color: burlywood;
+}
+
+.menusize {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+  max-width: 500px;
+}
+
+h1,
+p,
+h2 {
+  text-align: center;
+}
+
+h1,
+h2 {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -25px;
+}
+.flavor,
+.dessert {
+  text-align: left;
+  width: 75%;
+}
+.price {
+  text-align: right;
+  width: 25%;
+}
+.item {
+  display: flex;
+  justify-content: space-between;
+}
+.item p {
+  display: inline-block; /* This is will make all paragrah inline the major issue 
+  is that if you have enter or line break between two element and width is 50% of each 
+  element then even if it is 100% width the display will breack into multi line*/
+  font-size: 18px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.bottom-line {
+  margin-top: 25px;
+}
+hr {
+  height: 2px;
+  background-color: brown;
+  border-color: brown;
+}
+footer {
+  font-size: 14px;
+}
+footer a {
+  color: black;
+}
+a:visited {
+  color: black;
+}
+
+a:hover {
+  color: brown;
+}
+a:active {
+  color: white;
+}
+.address {
+  margin-bottom: 15px;
+}
